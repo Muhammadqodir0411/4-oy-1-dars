@@ -30,7 +30,7 @@ function renderAllMovies() {
     AllMovies.forEach((el)=>{
         const card = document.createElement('div');
         card.classList.add('card');
-        card.innerHTML = `
+        card.innerHTML = `  
         
         <img src="${el.minImg}" alt="img" class="card-img">
         <div class="card-body">
